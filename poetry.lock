@@ -1144,7 +1144,7 @@ types-cryptography = "*"
 
 [[package]]
 name = "types-python-dateutil"
-version = "0.1.4"
+version = "0.1.6"
 description = "Typing stubs for python-dateutil"
 category = "dev"
 optional = false
@@ -1222,7 +1222,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6.2"
-content-hash = "2bcbdf92427768166c0554fbb7519dfdaedf56772af5ce803d4fa507ea706a4b"
+content-hash = "7577519817b1e8feb49c0e133b38bd74f66d1eca8e772c5baf9ff7bcbd3fddbb"
 
 [metadata.files]
 alabaster = [
@@ -1418,8 +1418,10 @@ cryptography = [
     {file = "cryptography-3.4.7-cp36-abi3-win_amd64.whl", hash = "sha256:de4e5f7f68220d92b7637fc99847475b59154b7a1b3868fb7385337af54ac9ca"},
     {file = "cryptography-3.4.7-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:26965837447f9c82f1855e0bc8bc4fb910240b6e0d16a664bb722df3b5b06873"},
     {file = "cryptography-3.4.7-pp36-pypy36_pp73-manylinux2014_x86_64.whl", hash = "sha256:eb8cc2afe8b05acbd84a43905832ec78e7b3873fb124ca190f574dca7389a87d"},
+    {file = "cryptography-3.4.7-pp37-pypy37_pp73-macosx_10_10_x86_64.whl", hash = "sha256:b01fd6f2737816cb1e08ed4807ae194404790eac7ad030b34f2ce72b332f5586"},
     {file = "cryptography-3.4.7-pp37-pypy37_pp73-manylinux2010_x86_64.whl", hash = "sha256:7ec5d3b029f5fa2b179325908b9cd93db28ab7b85bb6c1db56b10e0b54235177"},
     {file = "cryptography-3.4.7-pp37-pypy37_pp73-manylinux2014_x86_64.whl", hash = "sha256:ee77aa129f481be46f8d92a1a7db57269a2f23052d5f2433b4621bb457081cc9"},
+    {file = "cryptography-3.4.7-pp37-pypy37_pp73-win_amd64.whl", hash = "sha256:bf40af59ca2465b24e54f671b2de2c59257ddc4f7e5706dbd6930e26823668d3"},
     {file = "cryptography-3.4.7.tar.gz", hash = "sha256:3d10de8116d25649631977cb37da6cbdd2d6fa0e0281d014a5b7d337255ca713"},
 ]
 dataclasses = [
@@ -1944,8 +1946,8 @@ types-pyopenssl = [
     {file = "types_pyOpenSSL-20.0.3-py3-none-any.whl", hash = "sha256:c51286c23e26e4c67d1e9d1e1ce2efd2d5386c32c15dc90a977290b79e16532a"},
 ]
 types-python-dateutil = [
-    {file = "types-python-dateutil-0.1.4.tar.gz", hash = "sha256:e6486ca27b6dde73e0ec079a9e1b03e208766e6bc7f1e08964a7e9104a5c7d7a"},
-    {file = "types_python_dateutil-0.1.4-py2.py3-none-any.whl", hash = "sha256:39bfe0bde61fc673b8fa28167bd78622d976210f791971b9f3e10877cbf119a4"},
+    {file = "types-python-dateutil-0.1.6.tar.gz", hash = "sha256:b02de39a54ce6e3fadfdc7dba77d8519fbfb6ca049920e190b5f89c74d5f9de6"},
+    {file = "types_python_dateutil-0.1.6-py3-none-any.whl", hash = "sha256:5b6241ea9fca2d8878cc152017d9524da62a7a856b98e31006e68b02aab47442"},
 ]
 types-requests = [
     {file = "types-requests-2.25.0.tar.gz", hash = "sha256:ee0d0c507210141b7d5b8639cc43eaa726084178775db2a5fb06fbf85c185808"},
